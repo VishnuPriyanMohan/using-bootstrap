@@ -173,6 +173,7 @@ section {
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
   gap: 1.5rem;
+  margin-bottom: 10px;
 
 }
 
@@ -204,8 +205,30 @@ section {
   color: aliceblue;
   font-size: 15px;
   line-height: 1.4;
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
 }
+
+.about .btn-box .box2{
+  display: inline-block;
+  padding: 12px 28px;
+  background: orange;
+  border-radius: 40px;
+  font-size: 16px;
+  color: black;
+  letter-spacing: 1px;
+  text-decoration: none;
+  font-weight: 600;
+  opacity: 0;
+  box-shadow: 0 0 5px orange,
+    0 0 25px orange;
+}
+
+.about .btn-box .box2:hover {
+  box-shadow: 0 0 5px orange,
+    0 0 25px orange, 0 0 50px orange,
+    0 0 100px orange, 0 0 200px orange;
+}
+
 
 
 
@@ -219,7 +242,10 @@ section {
 
 .sub-title{
   font-size: 50px;
+  letter-spacing: 2px;
   text-align: center;
+  font-weight: 700;
+  margin-top: 80px;
 }
 
 .span1{
