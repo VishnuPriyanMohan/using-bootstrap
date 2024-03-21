@@ -167,6 +167,8 @@ section {
 
 
 .about {
+  width: 100%;
+  height: 100vh;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
@@ -209,122 +211,19 @@ section {
 
 
 /********Skills*******/
-.sub-title{
-  text-align: center;
-  font-size: 60px;
-  padding-bottom: 70px;
-}
-.sub-title span{
-  color: orange;
-}
 
-section{
+#skills{
   display: flex;
-  flex-wrap: wrap;
-}
-
-.container1{
-  width: 500px;
-  height: 400px;
-  padding: 75px 90px;
-  margin-left: 110px;
-}
-
-.heading1{
-  text-align: center;
-  text-decoration: underline;
-  text-underline-offset: 10px;
-  text-decoration-thickness: 5px;
-  margin-bottom: 50px;
-}
-
-.bar{
-  font-size: 28px;
-}
-
-.Technical-bars .bar{
-  margin-top: 40px 0;
-}
-.Technical-bars .bar:first-child{
-  margin-top: 0;
-}
-.Technical-bars .bar:last-child{
-  margin-bottom: 0;
-}
-.Technical-bars .bar .info{
-  margin-bottom: 5px;
-}
-/* .Technical-bars .bar .info span{
-  font-size: 17px;
-  font-weight: 500;
-  animation: showtext 0.5s 1s linear forwards;
-  opacity: 0;
-}
-.Technical-bars .bar .progress-line{
-  position: relative;
-  border-radius: 10px;
-  width: 100%;
-  height: 5px;
-  background-color: white;
-  animation: animate 1s cubic-bezier(1,0,0,5,1) forwards;
-  transform: scaleX(0);
-  transform-origin: left;
-}
-
-@keyframes animate{
-  100%{
-    transform: scaleX(1);
-  }
-}
-
-.Technical-bars .bar .progress-line span{
-  height: 100%;
-  background-color: orange;
-  position: absolute;
-  border-radius: 10px;
-  animation: animate 1s 1s cubic-bezier(1,0,0,5,1) forwards;
-  transform: scaleX(0);
-  transform-origin: left;
-}
-
-.progress-line.html span{
-  width: 90%;
-}
-.progress-line.css span{
-  width: 90%;
-}
-.progress-line.javascript span{
-  width: 90%;
-}
-.progress-line.java span{
-  width: 90%;
-}
-.progress-line.sql span{
-  width: 90%;
-} */
-
-#skills .card-container{
-  display: flex;
-  flex-wrap: wrap;
-}
-
-
-
-
-
-#skills .card-1{
-  flex-grow: 1;
-  flex-basis: 200;
-  width: 135px;
-  height: 100px;
-  color: orange;
-  background-color: transparent;
   justify-content: center;
-  align-items:center;
-  border-radius: 10px;
-  box-shadow: 0px 0px 10px 2px  orange;
-  border: none;
+}
 
+.sub-title{
+  font-size: 50px;
+  text-align: center;
+}
+
+.span1{
+  color: orange;
 }
 
 
