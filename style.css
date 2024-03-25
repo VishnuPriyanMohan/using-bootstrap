@@ -235,10 +235,10 @@ section {
 
 /********Skills*******/
 
-#skills{
+/* #skills{
   display: flex;
   justify-content: center;
-}
+} */
 
 .sub-title{
   font-size: 50px;
@@ -252,6 +252,11 @@ section {
   color: orange;
 }
 
+
+.grid-item{
+  
+
+}
 
 
 
